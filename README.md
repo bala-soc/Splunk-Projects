@@ -21,7 +21,7 @@ This project provides a step-by-step guide for analyzing **DNS (Domain Name Syst
 
 ---
 
-### 2. Analyzing FTP Logs Using Splunk SIEM
+### 2. [Analyzing FTP Logs Using Splunk SIEM](https://github.com/bala-soc/Spunk-Projects/blob/main/2.%20Analyzing%20FTP%20Logs%20Using%20Splunk%20SIEM.md)
 This project guides you through analyzing **FTP (File Transfer Protocol)** log files using Splunk SIEM.
 
 **Key Focus Areas:**
