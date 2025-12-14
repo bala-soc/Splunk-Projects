@@ -33,7 +33,7 @@ This project guides you through analyzing **FTP (File Transfer Protocol)** log f
 
 ---
 
-### 3. Analyzing HTTP Logs Using Splunk SIEM
+### 3. [Analyzing HTTP Logs Using Splunk SIEM](https://github.com/bala-soc/Spunk-Projects/blob/main/3.%20Analyzing%20HTTP%20Logs%20Using%20Splunk%20SIEM.md)
 This project outlines the process of analyzing **HTTP (Hypertext Transfer Protocol)** log files using Splunk SIEM.
 
 **Key Focus Areas:**
