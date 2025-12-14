@@ -1,6 +1,7 @@
 # Splunk SIEM Log Analysis Projects
 
 This repository contains a collection of hands-on projects focused on analyzing different types of log data using **Splunk SIEM**.  
+
 Each project follows a structured, step-by-step approach to help understand log ingestion, field extraction, analysis, anomaly detection, and security monitoring.
 
 These projects are designed to demonstrate **practical SOC Analyst (L1) skills**, including log analysis, threat detection, and incident investigation.
