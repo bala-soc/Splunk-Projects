@@ -70,7 +70,7 @@ This project demonstrates how to analyze **tunnel traffic logs** (e.g., GRE, IPv
 
 ---
 
-### 6. Analyzing SMTP Logs Using Splunk SIEM
+### 6. [Analyzing SMTP Logs Using Splunk SIEM](https://github.com/bala-soc/Splunk-Projects/blob/main/6.%20Analyzing%20SMTP%20Logs%20Using%20Splunk%20SIEM.md)
 This project provides a structured approach for analyzing **SMTP (Simple Mail Transfer Protocol)** log files using Splunk SIEM.
 
 **Key Focus Areas:**
