@@ -25,8 +25,3 @@ For an interview-ready case study, include the data source, ingestion settings, 
 
 ## Tools
 Splunk Enterprise/Free, SPL, and sample DNS, FTP, HTTP, SSH, SMTP, DHCP, or Zeek logs.
-
-
-## Screenshots
-
-Add screenshots from your Splunk lab to the relevant case studies. Use evidence that matches the queries and written findings. See the [Screenshot Guide](https://github.com/bala-soc/Splunk-Projects/blob/main/SCREENSHOT_GUIDE.md).
