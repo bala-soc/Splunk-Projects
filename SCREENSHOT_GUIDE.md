@@ -1,28 +1,29 @@
 # Screenshots and Evidence
 
-This repository uses screenshots as supporting evidence. Existing screenshots from earlier versions were removed when the write-ups were simplified; they should be restored only when they correspond to a real, reproducible Splunk run and are labelled accurately.
+Screenshots help reviewers see the investigation workflow and confirm that a project has visual documentation. Each case study currently includes one screenshot retained from an earlier repository version as a **visual reference**, not as proof that the revised examples were rerun.
 
-## What screenshots to add
+## Replace the reference with fresh evidence
 
-For each protocol case study, add up to three screenshots under `screenshots/`:
+For each completed investigation, add screenshots from your own current Splunk run:
 
-1. `01-data-ingested.png` — Splunk search showing a few ingested events, with index, sourcetype, and time range visible.
-2. `02-query-results.png` — the exact SPL query and resulting table/chart.
-3. `03-investigation-evidence.png` — a relevant event detail or follow-up correlation supporting the written conclusion.
+1. `01-data-ingested.png` — a few events with the actual index, sourcetype, and time range visible.
+2. `02-query-results.png` — the current SPL query and its actual results.
+3. `03-event-details.png` — a relevant event detail or follow-up correlation supporting the written conclusion.
+
+Place the screenshots in a `screenshots/` folder inside the project or use the original GitHub image link. Link images in Markdown, for example:
+
+```markdown
+### Evidence: SPL query results
+![Splunk query and results](screenshots/02-query-results.png)
+```
 
 ## Quality requirements
 - Use original screenshots from your own Splunk instance.
-- Show the query and meaningful results; crop away unrelated desktop areas.
-- Redact usernames, public IPs where sensitive, tokens, email addresses, and other personal data.
-- Do not create screenshots with fabricated data and present them as observed Splunk output.
-- Ensure the query in the screenshot matches the query in the Markdown file.
-- Include an image caption explaining what the screenshot demonstrates.
-- If results are not yet available, leave the screenshot section marked as pending instead of showing a mock result.
+- Ensure screenshots match the SPL and field names in the current write-up.
+- Show meaningful results and a readable query, with the time range visible when relevant.
+- Redact usernames, sensitive IPs, email addresses, tokens, and other private information.
+- Caption what each image demonstrates.
+- Do not fabricate Splunk output or present an illustrative mock-up as observed results.
+- If you have not rerun a case yet, keep the existing reference clearly labelled and do not claim that it validates the revised query.
 
-## Add images in Markdown
-After committing genuine screenshots to a project's `screenshots/` folder, link them like this:
-
-```markdown
-### Evidence: Query results
-![Splunk query results](screenshots/02-query-results.png)
-```
+A reviewer should be able to reproduce the query from the write-up and understand how the screenshot supports the conclusion.
