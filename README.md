@@ -27,9 +27,6 @@ For an interview-ready case study, include the data source, ingestion settings, 
 Splunk Enterprise/Free, SPL, and sample DNS, FTP, HTTP, SSH, SMTP, DHCP, or Zeek logs.
 
 
+## Screenshots
 
-## Evidence screenshots
-
-Add genuine screenshots from your own Splunk run to the individual case studies. For the minimum useful set—event ingestion, the SPL query with results, and a relevant event detail—see the [Screenshot Guide](https://github.com/bala-soc/Splunk-Projects/blob/main/SCREENSHOT_GUIDE.md).
-
-Screenshots should support the written findings and match the query in the document. Do not use mock screenshots or claim untested output as a verified result.
+Add screenshots from your Splunk lab to the relevant case studies. Use evidence that matches the queries and written findings. See the [Screenshot Guide](https://github.com/bala-soc/Splunk-Projects/blob/main/SCREENSHOT_GUIDE.md).
